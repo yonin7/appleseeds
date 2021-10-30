@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: 'Gotham', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+@font-face {
+  font-family: TESLA;
+  src: url(./TESLA.ttf);
+}
+
+.homepage {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.page1pic {
+  position: static;
+  /* top: -80px; */
+}
+
+.page1pic img {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  position: fixed;
+  max-width: 100%;
+  z-index: 0;
+  top: 12px;
+  left: 3%;
+  list-style: none;
+  line-height: 21px;
+  font-weight: 550px;
+  text-align: left;
+  width: 150px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  padding: 5px 0px;
+  font-family: TESLA;
+  font-size: 18px;
+}
+
+header {
+  position: fixed;
+  max-width: 100%;
+  right: 0%;
+  z-index: 0;
+  /* border: 3px solid black; */
+  top: 10px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  height: 800px;
+  font-weight: 550px;
+  text-align: center;
+}
+
+.navbar {
+  display: inline-block;
+  /* border: black solid 3px; */
+  position: relative;
+  top: 12px;
+  right: 80%;
+  margin-left: 100px;
+  /* padding: 0px 50px; */
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+}
+
+.navbar li {
+  color: white;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  overflow: left;
+}
+
+.navbar li :hover {
+  background-color: #848994;
+  color: #f4f4f4;
+  border-radius: 15px;
+  /* border: 1px rgb(124, 120, 120) solid; */
+}
+
+.navbar li a {
+  padding: 9px 15.5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.Menu {
+  display: inline;
+  position: relative;
+  right: 5%;
+  top: -8px;
+  /* border: black solid 3px; */
+  text-align: right;
+  /* padding: 0px 25px; */
+  font-weight: 500;
+}
+
+.Menu li {
+  color: white;
+  text-align: center;
+  list-style: none;
+  display: inline;
+
+  border-radius: 15px;
+}
+
+.Menu li :hover {
+  background-color: #848994;
+  color: #f4f4f4;
+  border-radius: 15px;
+}
+
+.Menu li a {
+  padding: 9px 16px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.homepage section {
+  position: absolute;
+
+  top: 15%;
+  left: 45%;
+
+  font-size: 30px;
+  line-height: 48px;
+  color: #fff;
+  font-weight: 100;
+}
+
+footer {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  font-family: 'Gotham', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  color: #fff;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.acceleration {
+  /* border: solid 3px black; */
+  display: inline-block;
+  font-size: 30px;
+}
+
+.acceleration p {
+  margin-top: 2px;
+}
+
+.rangetitle {
+  /* border: solid 3px black; */
+  display: inline-block;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px 60px;
+}
+.rangetext__number {
+  /* border: solid 3px black; */
+
+  width: 80%;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 0px;
+}
+.rangetext__unit {
+  /* border: solid 3px black; */
+  width: 30%;
+  font-size: 22px;
+  line-height: 20px;
+}
+.rangetext p {
+  /* border: solid 3px black; */
+  margin-top: 2px;
+  line-height: 14px;
+}
+
+.AWD {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.AWD p {
+  text-align: center;
+}
+
+.order {
+  float: right;
+  margin: 5px 30px;
+  padding: 15px 30px;
+}
+.order a {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid rgb(243, 243, 243);
+  border-radius: 50px;
+  padding: 12px 37px;
+  font-size: 13px;
+}
+
+.order a:hover {
+  color: #848994;
+  background-color: #f4f4f4;
+}
